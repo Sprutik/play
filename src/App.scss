@@ -1,9 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
-
 * {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #545454;
+  font-size: 35px;
+}
+
+p {
+  text-align: center;
+  color: #8c9597;
+  font-size: 16px;
+  font-weight: 400;
+  word-wrap: break-word;
+  line-height: 26px;
+
+  width: 80%;
+  margin: auto;
 }

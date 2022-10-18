@@ -1,16 +1,14 @@
-import Navigation from '../Navigation/Navigation'
+import { Navigation } from '../Navigation/Navigation'
 import './Header.scss'
 
-function Header() {
+export const Header = () => {
   return (
-    <header>
-      <div className="header-main">
-        <h1>PLAYCRAFT</h1>
-
-        <Navigation />
+    <header className="header">
+      <div className="logo-container">
+        <h1 className="logo">PLAYCRAFT</h1>
       </div>
+
+      <Navigation />
     </header>
   )
 }
-
-export default Header

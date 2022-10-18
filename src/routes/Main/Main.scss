@@ -1,0 +1,98 @@
+.section-outer {
+  font-weight: 700;
+  display: flex;
+}
+
+.section-inner {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-top {
+  color: white;
+
+  background: url(../../assets/img/header.jpg) center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 850px;
+}
+
+.label-main {
+  margin-top: 25%;
+}
+
+.label-text {
+  font-size: 24px;
+  color: white;
+
+  margin: 35px auto;
+}
+
+.btns-container {
+  text-align: center;
+}
+
+.section-servers {
+  font-family: 'Lato', sans-serif;
+}
+
+.about-label {
+  margin-top: 75px;
+  margin-bottom: 40px;
+}
+
+.section-projects {
+  background-image: url(../../assets/img/pattern.png);
+  padding-top: 65px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.projects-text {
+  margin-top: 5px;
+  margin-bottom: 65px;
+  width: 100%;
+}
+
+.projects-images {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.project-img-container {
+  width: 25%;
+
+  @media (max-width: 1020px) {
+    width: 50%;
+  }
+}
+
+.project-img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-reviews {
+  background-image: url(../../assets/img/testiomnials-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 400px;
+}
+
+.review-label {
+  color: white;
+  margin-top: 40px;
+}
+
+.section-counters {
+  background-image: url(../../assets/img/counter.jpg);
+  background-position-y: -150px;
+  height: 300px;
+}

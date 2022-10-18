@@ -1,0 +1,26 @@
+.signup-btn {
+  width: auto;
+  text-align: center;
+  height: 63px;
+  line-height: 57px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0 auto;
+  padding: 0 70px;
+  display: inline-block;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: 'Poppins';
+  min-width: 242px;
+}
+
+.signup-btn:hover {
+  background: rgba(146, 141, 141, 0.1);
+  text-decoration: none;
+}
