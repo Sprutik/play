@@ -13,8 +13,7 @@ import { Commands } from './routes/Commands/Commands'
 import { Donate } from './routes/Donate/Donate'
 import { Premium } from './routes/Premium/Premium'
 import { About } from './routes/About/About'
-import { Agreement } from './routes/Agreement/Agreement'
-import { Privacy } from './routes/Privacy/Privacy'
+import { GDPR } from './routes/GDPR'
 
 const App = () => {
   const router = createBrowserRouter([
@@ -23,40 +22,36 @@ const App = () => {
       element: <Main />,
     },
     {
-      path: 'rules',
+      path: '/rules',
       element: <Rules />,
     },
     {
-      path: 'faq',
+      path: '/faq',
       element: <FAQ />,
     },
     {
-      path: 'start',
+      path: '/start',
       element: <Start />,
     },
     {
-      path: 'commands',
+      path: '/commands',
       element: <Commands />,
     },
     {
-      path: 'donate',
+      path: '/donate',
       element: <Donate />,
     },
     {
-      path: 'premium',
+      path: '/premium',
       element: <Premium />,
     },
     {
-      path: 'about',
+      path: '/about',
       element: <About />,
     },
     {
-      path: 'privacy',
-      element: <Privacy />,
-    },
-    {
-      path: 'agreement',
-      element: <Agreement />,
+      path: '/gdpr',
+      element: <GDPR />,
     },
   ])
 
