@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.bfaeeff8.css",
+    "main.js": "/static/js/main.c7107d54.js",
+    "static/media/counter.png": "/static/media/counter.959982822a6995260868.png",
+    "static/media/header.jpg": "/static/media/header.15a2f568add35d13add5.jpg",
+    "static/media/UpheavalPro.ttf": "/static/media/UpheavalPro.20a7e0b726c6536403ce.ttf",
+    "static/media/front-1.png": "/static/media/front-1.2067320299b0ed21df87.png",
+    "static/media/testiomnials-background.png": "/static/media/testiomnials-background.3d4f545cf1132ad01343.png",
+    "static/media/3.png": "/static/media/3.24643f3c150abb94771b.png",
+    "static/media/2.png": "/static/media/2.73d982ca88d1f9dc05f4.png",
+    "static/media/1.png": "/static/media/1.021cb861ba812b479db0.png",
+    "static/media/discord.png": "/static/media/discord.87103b7fb8f04ea4d3ef.png",
+    "static/media/payment_systems.png": "/static/media/payment_systems.ad0f02dada53631878c2.png",
+    "static/media/instagram.png": "/static/media/instagram.15d77dca0ebcbb9aa0d5.png",
+    "static/media/playcraft.png": "/static/media/playcraft.e1d0ea953347760b167f.png",
+    "static/media/tg.png": "/static/media/tg.e9722f26cc228e817986.png",
+    "static/media/youtube.png": "/static/media/youtube.060528b6e83f2004078d.png",
+    "static/media/fb.png": "/static/media/fb.4f037d961598aff2a0a4.png",
+    "index.html": "/index.html",
+    "static/media/heart.svg": "/static/media/heart.606323693e05beff8e8ac659ea67ce94.svg",
+    "main.bfaeeff8.css.map": "/static/css/main.bfaeeff8.css.map",
+    "main.c7107d54.js.map": "/static/js/main.c7107d54.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfaeeff8.css",
+    "static/js/main.c7107d54.js"
+  ]
+}
