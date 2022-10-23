@@ -1,11 +1,11 @@
 import './Footer.scss'
 
 import logo from '../../assets/img/playcraft.png'
-import telegram from '../../assets/icons/tg.svg'
-import fb from '../../assets/icons/fb.svg'
-import discord from '../../assets/icons/discord.svg'
-import instagram from '../../assets/icons/instagram.svg'
-import youtube from '../../assets/icons/youtube.svg'
+import telegram from '../../assets/icons/tg.png'
+import fb from '../../assets/icons/fb.png'
+import discord from '../../assets/icons/discord.png'
+import instagram from '../../assets/icons/instagram.png'
+import youtube from '../../assets/icons/youtube.png'
 import heart from '../../assets/icons/heart.svg'
 
 export const Footer = () => {
@@ -63,10 +63,10 @@ export const Footer = () => {
         </div>
       </div>
       <div className="footer-right">
-        <a className="footer-link" href="#privacy">
+        <a className="footer-link" href="/privacy">
           Політика конфіденційності
         </a>
-        <a className="footer-link" href="#agreement">
+        <a className="footer-link" href="/agreement">
           Договір публічної оферти
         </a>
         <div className="flex-grow" />

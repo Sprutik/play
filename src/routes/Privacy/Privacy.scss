@@ -1,0 +1,32 @@
+.privacy {
+  margin: 10px 0;
+  min-height: 90vh;
+
+  p {
+    line-height: 1.2em;
+    color: black;
+    float: left;
+    margin-left: 15px;
+    text-align: start;
+  }
+
+  h2 {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+
+    text-align: start;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  ul {
+    list-style-type: square;
+    list-style-position: inside;
+    margin-left: 10px;
+  }
+}

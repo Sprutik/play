@@ -4,10 +4,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .burger-btn {
   position: absolute;
+  z-index: 999;
   top: 35px;
   width: 40px;
   height: 5px;
@@ -63,23 +65,96 @@
   right: 0;
   bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
+  animation-duration: 0.3s;
+  animation-name: showOverlay;
+}
+
+.ReactModal__Overlay--before-close {
+  animation-duration: 0.3s;
+  animation-name: hideOverlay;
 }
 
 .menu {
-  width: 30%;
+  width: 350px;
+
+  @media (max-width: 600px) {
+    width: 100%;
+  }
+
   height: 100%;
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.8);
   float: right;
-  animation-duration: 1s;
+  animation-duration: 0.3s;
   animation-name: slidein;
+}
+
+.ReactModal__Content--before-close {
+  animation-duration: 0.3s;
+  animation-name: slideout;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.nav-link {
+  cursor: pointer;
+  text-align: center;
+  color: #545454;
+  font-size: 35px;
+  margin: 15px;
+}
+
+.nav-link {
+  color: white;
+  font-family: 'UpheavalPro';
+}
+
+.nav-link:hover {
+  color: rgb(245, 228, 117);
+  transition: 0.5s;
 }
 
 @keyframes slidein {
   from {
-    width: 0%;
+    margin-right: -30%;
+    opacity: 0;
   }
-
   to {
-    width: 30%;
+    margin-right: 0%;
+    opacity: 1;
+  }
+}
+
+@keyframes slideout {
+  from {
+    margin-right: 0;
+    opacity: 1;
+  }
+  to {
+    margin-right: -30%;
+    opacity: 0;
+  }
+}
+
+@keyframes showOverlay {
+  from {
+    background-color: rgba(0, 0, 0, 0);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+}
+
+@keyframes hideOverlay {
+  from {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  to {
+    background-color: rgba(0, 0, 0, 0);
   }
 }

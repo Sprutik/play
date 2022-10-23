@@ -1,18 +1,36 @@
+import { useState, useEffect } from 'react'
 import { ServerInfo } from '../ServerInfo/ServerInfo'
 import './Servers.scss'
 
 export const Servers = () => {
-  const rand = () => Math.floor(Math.random() * 100)
+  const [serverInfo, setServerInfo] = useState({
+    first: { current: 0, max: 100 },
+    second: { current: 20, max: 100 },
+  })
 
-  const servers = {
-    first: { name: 'Vanila', current: rand(), max: 100 },
-    second: { name: 'Tech', current: rand(), max: 100 },
-  }
+  const getInfo = useEffect(() => {
+    fetch(
+      `https://login.playcraft.com.ua/action.php?action=status&ip=playcraft.com.ua&port=25555`
+    )
+      .then((response) => response.json())
+      .then((response) =>
+        setServerInfo((prevState) => {
+          return {
+            ...prevState,
+            first: { current: response.Players, max: response.MaxPlayers },
+          }
+        })
+      )
+  }, [])
 
   return (
     <div className="servers-container">
-      <ServerInfo info={servers.first} color={'#f18b6d'} />
-      <ServerInfo info={servers.second} color={'#f1d204'} />
+      <ServerInfo name="VANILA" info={serverInfo.first} color={'#f18b6d'} />
+      <ServerInfo
+        name="PLAYCRAFT II скоро..."
+        info={serverInfo.second}
+        color={'#f1d204'}
+      />
     </div>
   )
 }

@@ -1,0 +1,133 @@
+.premium {
+  font-family: 'UpheavalPro';
+
+  a {
+    line-height: 40px;
+    font-size: 40px;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+  }
+}
+
+.premium-text-small {
+  font-size: 20px;
+}
+
+.acces-img {
+  width: 23px;
+  height: 23px;
+}
+
+.premium-table {
+  margin: 2% 0;
+  width: 100%;
+  color: #777;
+  font-size: 20px;
+
+  .row-1 {
+    background-color: #e9eef0;
+  }
+
+  .row-2 {
+    background-color: white;
+  }
+
+  td,
+  th {
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  th {
+    font-weight: 800;
+  }
+
+  td {
+    font-weight: 500;
+    height: 40px;
+  }
+
+  th:first-child,
+  td:first-child {
+    border-right: 2px solid #777;
+  }
+}
+
+.premium-label {
+  font-size: 52px;
+  margin-top: 15px;
+}
+
+.status {
+  font-size: 24px;
+}
+
+.kozak {
+  color: #ffaa00;
+}
+
+.nationalist {
+  color: #00aa00;
+}
+
+.getman {
+  color: #aa00aa;
+}
+
+.sell {
+  color: red;
+}
+
+@media (max-width: 750px) {
+  .status {
+    font-size: 16px;
+  }
+
+  .premium-table {
+    font-size: 15px;
+
+    th:first-child,
+    td:first-child {
+      max-width: 150px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .status {
+    font-size: 11px;
+  }
+
+  .premium-table {
+    font-size: 11px;
+  }
+
+  .acces-img {
+    width: 13px;
+    height: 13px;
+  }
+}
+
+@media (max-width: 450px) {
+  .status {
+    font-size: 9px;
+  }
+
+  .premium-label {
+    font-size: 32px;
+  }
+
+  .premium-table {
+    font-size: 9px;
+  }
+
+  .acces-img {
+    width: 12px;
+    height: 12px;
+  }
+}

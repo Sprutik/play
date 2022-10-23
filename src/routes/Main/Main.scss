@@ -1,14 +1,3 @@
-.section-outer {
-  font-weight: 700;
-  display: flex;
-}
-
-.section-inner {
-  width: 1000px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
 .section-top {
   color: white;
 
@@ -19,22 +8,53 @@
 }
 
 .label-main {
+  font-size: 160px;
   margin-top: 25%;
+  margin-bottom: 60px;
 }
 
 .label-text {
-  font-size: 24px;
+  font-size: 52px;
   color: white;
-
-  margin: 35px auto;
+  margin: 20px auto;
 }
 
 .btns-container {
+  margin-top: 105px;
   text-align: center;
 }
 
+@media (max-width: 1020px) {
+  .label-main {
+    font-size: 105px;
+  }
+
+  .label-text {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .label-main {
+    font-size: 65px;
+  }
+
+  .label-text {
+    font-size: 30px;
+  }
+
+  .btns-container {
+    min-height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 .section-servers {
-  font-family: 'Lato', sans-serif;
+  font-family: 'UpheavalPro', sans-serif;
 }
 
 .about-label {
@@ -44,13 +64,17 @@
 
 .section-projects {
   background-image: url(../../assets/img/pattern.png);
-  padding-top: 65px;
 }
 
 .projects-container {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+}
+
+.projects-label {
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .projects-text {
@@ -67,10 +91,6 @@
 
 .project-img-container {
   width: 25%;
-
-  @media (max-width: 1020px) {
-    width: 50%;
-  }
 }
 
 .project-img {
@@ -79,20 +99,82 @@
 }
 
 .section-reviews {
-  background-image: url(../../assets/img/testiomnials-background.jpg);
+  background-image: url(../../assets/img/testiomnials-background.png);
   background-size: cover;
   background-repeat: no-repeat;
 
-  height: 400px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+  height: auto;
 }
 
 .review-label {
   color: white;
-  margin-top: 40px;
 }
 
 .section-counters {
-  background-image: url(../../assets/img/counter.jpg);
+  background-image: url(../../assets/img/counter.png);
   background-position-y: -150px;
+  padding: 10px;
+
+  color: white;
+}
+
+.winers-content {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px;
+
+  @media (max-width: 600px) {
+    padding: 5px;
+  }
+}
+
+.winer-label {
+  font-size: 28px;
+}
+
+.winers-nick {
+  margin-top: 15px;
+  font-size: 28px;
+  color: #ffaa00;
+}
+
+.winer-donater {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skin {
+  margin-top: 15px;
   height: 300px;
+  width: 150px;
+}
+
+.counter-conent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+  }
+}
+
+.counter-label {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.counter-timer {
+  width: 50%;
+}
+
+.counter-quote {
+  width: 45%;
+  font-size: 22px;
 }

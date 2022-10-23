@@ -1,7 +1,7 @@
 import './ServerInfo.scss'
 
-export const ServerInfo = ({ info, color }) => {
-  const { name, current, max } = info
+export const ServerInfo = ({ name, info, color }) => {
+  const { current, max } = info
 
   const percentage = Math.floor((current / max) * 100)
 
@@ -9,10 +9,10 @@ export const ServerInfo = ({ info, color }) => {
     <div className="server-info-container">
       <div
         className="online-bar-container"
-        style={{ marginLeft: percentage - 12 + '%' }}
+        style={{ marginLeft: percentage - 13 + '%' }}
       >
         <div className="online-bar-rect" style={{ backgroundColor: color }}>
-          {current + '%'}
+          {`${current}/${max}`}
         </div>
         <div
           className="online-bar-triangle"

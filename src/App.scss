@@ -1,5 +1,5 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'UpheavalPro', sans-serif;
 }
 
 h1 {
@@ -16,11 +16,22 @@ h2 {
 p {
   text-align: center;
   color: #8c9597;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 400;
   word-wrap: break-word;
   line-height: 26px;
 
   width: 80%;
   margin: auto;
+}
+
+.section-outer {
+  font-weight: 700;
+  display: flex;
+}
+
+.section-inner {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
 }

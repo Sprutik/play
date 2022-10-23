@@ -1,0 +1,49 @@
+.faq {
+  text-align: center;
+  padding: 50px;
+
+  div {
+    color: #8b7850;
+  }
+
+  p {
+    color: #000;
+  }
+
+  .accordion {
+    width: 100%;
+
+    .accordion__item {
+      margin: 10px 0;
+      border: 1px solid #545454;
+      border-radius: 5px;
+      overflow: hidden;
+
+      .accordion__heading {
+        text-align: center;
+        background-color: white;
+        padding: 5px;
+
+        .accordion__button {
+          font-weight: bold;
+          font-size: 20px;
+          cursor: pointer;
+          outline: 0;
+
+          &:hover {
+            color: #5f4b4b;
+          }
+        }
+      }
+
+      .accordion__panel {
+        padding: 10px;
+        line-height: 1.3em;
+      }
+    }
+  }
+}
+
+.section-header {
+  font-size: 32px;
+}

@@ -1,2 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@font-face {
+  font-family: 'UpheavalPro';
+  font-weight: 900;
+  src: local('UpheavalPro'),
+    url(../assets/font/UpheavalPro.ttf) format('opentype');
+}

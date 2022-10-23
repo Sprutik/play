@@ -1,0 +1,85 @@
+.reviews {
+  margin-top: 30px;
+  width: 100%;
+
+  @media (max-width: 1020px) {
+    width: 90vw;
+  }
+}
+
+.slide {
+  display: grid;
+  place-items: center;
+  background-position: center center;
+  background-size: cover;
+  color: white;
+}
+
+.review {
+  display: flex;
+  flex-direction: row;
+
+  @media (max-width: 1020px) {
+    flex-direction: column-reverse;
+  }
+}
+
+.reviewer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 20px 20px 20px 40px;
+}
+
+.photo {
+  height: 100px;
+  width: 100px;
+}
+
+.name {
+  margin-top: 10px;
+  // font-weight: bold;
+  // font-style: italic;
+  // font-size: 16px;
+}
+
+.review-text {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+}
+
+.quote {
+  padding: 0 30px;
+  line-height: 1.3em;
+}
+
+.quote-start,
+.quote-end {
+  flex-grow: 1;
+  position: relative;
+  height: 50px;
+}
+
+.quote-start:before,
+.quote-end:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.quote-start:before {
+  background-image: url('../../assets/img/quote-open.png');
+  left: 20px;
+}
+
+.quote-end:after {
+  background-image: url('../../assets/img/quote-close.png');
+  right: 70px;
+}
