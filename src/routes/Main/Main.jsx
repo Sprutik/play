@@ -1,5 +1,5 @@
 import { SignUpBtn } from '../../components/SignUpBtn/SignUpBtn'
-import { DownloadBtn } from '../../components/DownloadBtn/DownloadBtn'
+import { StartBtn } from '../../components/StartBtn/StartBtn'
 import { Servers } from '../../components/Servers/Servers'
 import { Counters } from '../../components/Counters/Counters'
 
@@ -23,7 +23,7 @@ export const Main = () => {
 
             <div className="btns-container">
               <SignUpBtn />
-              <DownloadBtn />
+              <StartBtn />
             </div>
           </div>
         </div>

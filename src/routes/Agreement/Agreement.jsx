@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Agreement.scss'
 
 export const Agreement = () => (
@@ -139,8 +140,7 @@ export const Agreement = () => (
           <br />
           7.1. Інтернет-магазин залишає за собою право в односторонньому порядку
           вносити зміни до цього договору за умови попередньої публікації його
-          на сайті{' '}
-          <a href="https://playcraft.com.ua"> https://playcraft.com.ua</a>
+          на сайті <Link to="/"> https://playcraft.com.ua</Link>
           <br />
           7.2. Інтернет-магазин створений для організації дистанційного способу
           придбання послуг через Інтернет.

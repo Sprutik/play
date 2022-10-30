@@ -7,6 +7,7 @@ import discord from '../../assets/icons/discord.png'
 import instagram from '../../assets/icons/instagram.png'
 import youtube from '../../assets/icons/youtube.png'
 import heart from '../../assets/icons/heart.svg'
+import { Link } from 'react-router-dom'
 
 export const Footer = () => {
   return (
@@ -63,12 +64,12 @@ export const Footer = () => {
         </div>
       </div>
       <div className="footer-right">
-        <a className="footer-link" href="/privacy">
+        <Link className="footer-link" to="privacy">
           Політика конфіденційності
-        </a>
-        <a className="footer-link" href="/agreement">
+        </Link>
+        <Link className="footer-link" to="agreement">
           Договір публічної оферти
-        </a>
+        </Link>
         <div className="flex-grow" />
         <div className="with-love">
           З любов'ю, PlayCraft

@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import Modal from 'react-modal'
+import { Link } from 'react-router-dom'
 
 import './Navigation.scss'
 
@@ -43,39 +44,42 @@ export const Navigation = () => {
         contentLabel="Example Modal"
       >
         <div className="nav-container">
-          <a href="rules" className="nav-link">
+          <a href="https://login.playcraft.com.ua/" className="nav-link">
+            ОСОБИСТИЙ КАБІНЕТ
+          </a>
+          <Link className="nav-link" to="/rules">
             ПРАВИЛА
-          </a>
-          <a href="start" className="nav-link">
+          </Link>
+          <Link to="start" className="nav-link">
             ПОЧАТИ ГРАТИ
-          </a>
-          <a href="commands" className="nav-link">
+          </Link>
+          <Link to="commands" className="nav-link">
             КОМАНДИ
-          </a>
-          <a href="donate" className="nav-link">
+          </Link>
+          <Link to="donate" className="nav-link">
             ДОНАТ
-          </a>
-          <a href="premium" className="nav-link">
+          </Link>
+          <Link to="premium" className="nav-link">
             ПРЕМІУМ
-          </a>
-          <a href="rules" className="nav-link">
+          </Link>
+          <a href="https://map.playcraft.com.ua/" className="nav-link">
             МАПА СВІТУ
           </a>
-          <a href="faq" className="nav-link">
+          <Link to="faq" className="nav-link">
             ЧАПИ
-          </a>
-          {/* <a href="rules" className="nav-link">
+          </Link>
+          {/* <itohref="rules" className="nav-link">
             ГАЛЕРЕЯ
-          </a>
-          <a href="rules" className="nav-link">
+          </Link>
+          <Link to="rules" className="nav-link">
             РЕЙТИНГ
-          </a>
-          <a href="rules" className="nav-link">
+          </Link>
+          <Link to="rules" className="nav-link">
             ВАКАНСІЇ
-          </a> */}
-          <a href="about" className="nav-link">
+          </Link> */}
+          <Link to="about" className="nav-link">
             ПРО НАС
-          </a>
+          </Link>
         </div>
       </Modal>
     </nav>

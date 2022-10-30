@@ -1,5 +1,6 @@
 .header {
   width: 100%;
+  font-family: 'UpheavalPro';
 
   display: flex;
   justify-content: space-between;
@@ -8,10 +9,6 @@
   padding: 0 50px;
 
   background: url(../../assets/img/bg-dark.png);
-
-  @media (max-width: 600px) {
-    padding: 0 10px;
-  }
 }
 
 .logo-icon {
@@ -30,7 +27,6 @@
 .logo {
   font-size: 40px;
   font-weight: 700;
-  font-family: 'UpheavalPro';
 
   color: #fff;
   transition: 0.5s;
@@ -39,4 +35,14 @@
 .logo:hover {
   color: rgb(245, 228, 117);
   transition: 0.5s;
+}
+
+@media (max-width: 600px) {
+  .header {
+    padding: 0 10px;
+  }
+
+  .logo {
+    font-size: 32px;
+  }
 }

@@ -1,5 +1,8 @@
 import { Helmet, HelmetProvider } from 'react-helmet-async'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
+
+import fivicon16 from './assets/img/favicon/favicon-16x16.png'
+import fivicon32 from './assets/img/favicon/favicon-32x32.png'
 
 import './App.scss'
 
@@ -14,59 +17,42 @@ import { Donate } from './routes/Donate/Donate'
 import { Premium } from './routes/Premium/Premium'
 import { About } from './routes/About/About'
 import { GDPR } from './routes/GDPR'
+import { Privacy } from './routes/Privacy/Privacy'
+import { Agreement } from './routes/Agreement/Agreement'
+import { ErrorPage } from './routes/ErrorPage/ErrorPage'
 
 const App = () => {
-  const router = createBrowserRouter([
-    {
-      path: '/',
-      element: <Main />,
-    },
-    {
-      path: '/rules',
-      element: <Rules />,
-    },
-    {
-      path: '/faq',
-      element: <FAQ />,
-    },
-    {
-      path: '/start',
-      element: <Start />,
-    },
-    {
-      path: '/commands',
-      element: <Commands />,
-    },
-    {
-      path: '/donate',
-      element: <Donate />,
-    },
-    {
-      path: '/premium',
-      element: <Premium />,
-    },
-    {
-      path: '/about',
-      element: <About />,
-    },
-    {
-      path: '/gdpr',
-      element: <GDPR />,
-    },
-  ])
-
   return (
-    <div className="app">
-      <HelmetProvider>
-        <Helmet>
-          <title>PlayCraft</title>
-        </Helmet>
-      </HelmetProvider>
+    <HashRouter>
+      <div className="app">
+        <HelmetProvider>
+          <Helmet>
+            <title>PlayCraft</title>
+            <link rel="icon" type="image/png" href={fivicon16} sizes="16x16" />
+            <link rel="icon" type="image/png" href={fivicon32} sizes="32x32" />
+          </Helmet>
+        </HelmetProvider>
 
-      <Header />
-      <RouterProvider router={router} />
-      <Footer />
-    </div>
+        <Header />
+        <div className="app-wrapper">
+          <Routes>
+            <Route exact path="/" element={<Main />} />
+            <Route exact path="/rules" element={<Rules />} />
+            <Route exact path="/faq" element={<FAQ />} />
+            <Route exact path="/start" element={<Start />} />
+            <Route exact path="/commands" element={<Commands />} />
+            <Route exact path="/donate" element={<Donate />} />
+            <Route exact path="/premium" element={<Premium />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/gdpr" element={<GDPR />} />
+            <Route exact path="/privacy" element={<Privacy />} />
+            <Route exact path="/agreement" element={<Agreement />} />
+            <Route exact path="/*" element={<ErrorPage />} />
+          </Routes>
+        </div>
+        <Footer />
+      </div>
+    </HashRouter>
   )
 }
 

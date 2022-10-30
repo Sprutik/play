@@ -27,17 +27,19 @@ export const About = () => {
   ]
 
   const contributions = [
+    { name: 'mik787', desc: '' },
+    { name: 'pad0n', desc: '' },
     { name: 'Irokez', desc: '' },
     { name: 'yorri', desc: '' },
     { name: 'Drak0n4ik', desc: '' },
     { name: 'iKamikadze', desc: '' },
     { name: '_DimoN', desc: '' },
     { name: 'doctorjuta', desc: '' },
-    { name: 'kuzia13666', desc: '' },
-    { name: 'efidrin777', desc: '' },
-    { name: 'EmmRenn', desc: '' },
     { name: 'Semk0', desc: '' },
     { name: 'Master21', desc: '' },
+    { name: 'kuzia13666', desc: '' },
+    { name: 'EmmRenn', desc: '' },
+    { name: 'efidrin777', desc: '' },
   ]
 
   return (
