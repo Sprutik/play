@@ -35,13 +35,13 @@ export const Start = () => {
             <div className="start-text">
               Завантажити Лаунчер
               <Button
-                str="Launcher.exe"
-                link="https://launcher.playcraft.com.ua/PlayCraft.exe"
+                str="playcraft.exe"
+                link="https://playcraft.com.ua/launchers/PlayCraft.exe"
               />
               <div className="about-abo">або</div>
               <Button
-                str="Launcher.jar"
-                link="https://launcher.playcraft.com.ua/PlayCraft.jar"
+                str="playcraft.jar"
+                link="https://playcraft.com.ua/launchers/PlayCraft.jar"
               />
             </div>
           </div>

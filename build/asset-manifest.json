@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.05914714.css",
-    "main.js": "/static/js/main.14b162a3.js",
+    "main.css": "/static/css/main.e8dac5ea.css",
+    "main.js": "/static/js/main.d88d44c3.js",
     "static/media/counter.png": "/static/media/counter.959982822a6995260868.png",
     "static/media/header.jpg": "/static/media/header.15a2f568add35d13add5.jpg",
     "static/media/UpheavalPro.ttf": "/static/media/UpheavalPro.20a7e0b726c6536403ce.ttf",
@@ -19,11 +19,11 @@
     "static/media/fb.png": "/static/media/fb.4f037d961598aff2a0a4.png",
     "index.html": "/index.html",
     "static/media/heart.svg": "/static/media/heart.606323693e05beff8e8ac659ea67ce94.svg",
-    "main.05914714.css.map": "/static/css/main.05914714.css.map",
-    "main.14b162a3.js.map": "/static/js/main.14b162a3.js.map"
+    "main.e8dac5ea.css.map": "/static/css/main.e8dac5ea.css.map",
+    "main.d88d44c3.js.map": "/static/js/main.d88d44c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.05914714.css",
-    "static/js/main.14b162a3.js"
+    "static/css/main.e8dac5ea.css",
+    "static/js/main.d88d44c3.js"
   ]
 }

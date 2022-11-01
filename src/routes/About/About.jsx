@@ -23,7 +23,6 @@ export const About = () => {
     { name: 'Pain', desc: '' },
     { name: 'MalDeRoK', desc: '' },
     { name: 'artem123', desc: '' },
-    { name: 'vitalik019', desc: '' },
   ]
 
   const contributions = [
@@ -36,6 +35,7 @@ export const About = () => {
     { name: '_DimoN', desc: '' },
     { name: 'doctorjuta', desc: '' },
     { name: 'Semk0', desc: '' },
+    { name: 'sparta', desc: '' },
     { name: 'Master21', desc: '' },
     { name: 'kuzia13666', desc: '' },
     { name: 'EmmRenn', desc: '' },
@@ -64,7 +64,7 @@ export const About = () => {
           <h2 className="about-label">Адміністратори проєкту:</h2>
           <div className="admin-container">
             {admins.map((admin) => (
-              <div className="person-container">
+              <div key={admin.name} className="person-container">
                 <div
                   className="person-head"
                   style={{
@@ -85,7 +85,7 @@ export const About = () => {
           <h2 className="about-label">Модератори:</h2>
           <div className="admin-container">
             {moders.map((admin) => (
-              <div className="person-container">
+              <div key={admin.name} className="person-container">
                 <div
                   className="person-head"
                   style={{
@@ -107,7 +107,7 @@ export const About = () => {
           <h2 className="about-label">Хелпери:</h2>
           <div className="admin-container">
             {helpers.map((admin) => (
-              <div className="person-container">
+              <div key={admin.name} className="person-container">
                 <div
                   className="person-head"
                   style={{
@@ -129,7 +129,7 @@ export const About = () => {
           <h2 className="about-label">Внесли вагомий внесок:</h2>
           <div className="admin-container">
             {contributions.map((admin) => (
-              <div className="person-container">
+              <div key={admin.name} className="person-container">
                 <div
                   className="person-head"
                   style={{

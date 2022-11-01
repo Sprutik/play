@@ -10,7 +10,7 @@ export const Servers = () => {
 
   const getInfo = useEffect(() => {
     fetch(
-      `https://login.playcraft.com.ua/action.php?action=status&ip=playcraft.com.ua&port=25555`
+      `https://login.playcraft.com.ua/action.php?action=status&ip=playcraft.com.ua&port=25565`
     )
       .then((response) => response.json())
       .then((response) =>

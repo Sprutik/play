@@ -65,7 +65,7 @@ export const Premium = () => {
                   <span className="nationalist">DARK GREEN</span>
                 </td>
                 <td>
-                  <span className="getman">DRAK PURPLE</span>
+                  <span className="getman">DARK PURPLE</span>
                 </td>
               </tr>
               <tr className="row-1">
@@ -350,7 +350,7 @@ export const Premium = () => {
                 </td>
               </tr>
               <tr className="row-2">
-                <td>Режим безсмертия</td>
+                <td>Режим безсмертя</td>
                 <td>
                   {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
