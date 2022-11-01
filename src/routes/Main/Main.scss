@@ -128,6 +128,20 @@
 }
 
 .winers-content {
+}
+
+.winer-label {
+  font-size: 28px;
+}
+
+.winer-date {
+  font-size: 28px;
+  transform: rotate(-90deg);
+  float: left;
+  margin-top: 200px;
+}
+
+.winer-container {
   display: flex;
   justify-content: space-around;
   padding: 35px;
@@ -135,10 +149,6 @@
   @media (max-width: 600px) {
     padding: 5px;
   }
-}
-
-.winer-label {
-  font-size: 28px;
 }
 
 .winers-nick {

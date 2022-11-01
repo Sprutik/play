@@ -9,8 +9,10 @@ import './Main.scss'
 import { ReviewSlider } from '../../components/ReviewSlider/ReviewSlider'
 
 export const Main = () => {
-  const donterNick = 'StIv33'
+  const donterNick = 'JohnIsKing'
   const builderNick = 'Tuteshnij'
+  const date = new Date()
+  date.setMonth(date.getMonth() - 1)
 
   return (
     <main>
@@ -75,25 +77,30 @@ export const Main = () => {
       <section>
         <div className="section-outer section-winers">
           <div className="section-inner winers-content">
-            <div className="winer-donater">
-              <div className="winer-label"> Донатер місяця:</div>
-              <div
-                className="skin"
-                style={{
-                  backgroundImage: `url(https://login.playcraft.com.ua/action.php?action=skin&size=300&nick=${donterNick})`,
-                }}
-              ></div>
-              <p className="winers-nick">{donterNick}</p>
+            <div className="winer-date">
+              {date.toLocaleString('default', { month: 'long' })}
             </div>
-            <div className="winer-donater">
-              <div className="winer-label"> Будівельник місяця:</div>
-              <div
-                className="skin"
-                style={{
-                  backgroundImage: `url(https://login.playcraft.com.ua/action.php?action=skin&size=300&nick=${builderNick})`,
-                }}
-              ></div>
-              <p className="winers-nick">{builderNick}</p>
+            <div className="winer-container">
+              <div className="winer-donater">
+                <div className="winer-label"> Донатер місяця:</div>
+                <div
+                  className="skin"
+                  style={{
+                    backgroundImage: `url(https://login.playcraft.com.ua/action.php?action=skin&size=300&nick=${donterNick})`,
+                  }}
+                ></div>
+                <p className="winers-nick">{donterNick}</p>
+              </div>
+              <div className="winer-donater">
+                <div className="winer-label"> Будівельник місяця:</div>
+                <div
+                  className="skin"
+                  style={{
+                    backgroundImage: `url(https://login.playcraft.com.ua/action.php?action=skin&size=300&nick=${builderNick})`,
+                  }}
+                ></div>
+                <p className="winers-nick">{builderNick}</p>
+              </div>
             </div>
           </div>
         </div>
