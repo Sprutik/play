@@ -6,9 +6,7 @@ export const Start = () => {
     <section>
       <div className="section-outer start">
         <div className="section-inner start-content">
-          <h1 className="start-header">
-            Для того щоб розпочати гру на сервері Вам необхідно:
-          </h1>
+          <h1 className="start-header">Для того щоб розпочати гру на сервері Вам необхідно:</h1>
           <div className="start-container">
             <div className="start-number-container number-1"></div>
             <div className="start-text">
@@ -20,10 +18,7 @@ export const Start = () => {
           <div className="start-container">
             <div className="start-text">
               Завантажити Java
-              <Button
-                str="Java"
-                link="https://download.bell-sw.com/java/8u352+8/bellsoft-jre8u352+8-windows-amd64-full.msi"
-              />
+              <Button str="Java" link="https://cdn.azul.com/zulu/bin/zulu17.28.13-ca-fx-jre17.0.0-win_x64.msi" />
             </div>
 
             <div className="start-number-container number-2"></div>
@@ -34,15 +29,9 @@ export const Start = () => {
             <div className="start-number-container number-3"></div>
             <div className="start-text">
               Завантажити Лаунчер
-              <Button
-                str="playcraft.exe"
-                link="https://playcraft.com.ua/launchers/PlayCraft.exe"
-              />
+              <Button str="playcraft.exe" link="https://playcraft.com.ua/launchers/PlayCraft.exe" />
               <div className="about-abo">або</div>
-              <Button
-                str="playcraft.jar"
-                link="https://playcraft.com.ua/launchers/PlayCraft.jar"
-              />
+              <Button str="playcraft.jar" link="https://playcraft.com.ua/launchers/PlayCraft.jar" />
             </div>
           </div>
         </div>

@@ -20,6 +20,7 @@ import { GDPR } from './routes/GDPR'
 import { Privacy } from './routes/Privacy/Privacy'
 import { Agreement } from './routes/Agreement/Agreement'
 import { ErrorPage } from './routes/ErrorPage/ErrorPage'
+import { Promo } from './components/Promo/Promo'
 
 const App = () => {
   return (
@@ -50,6 +51,7 @@ const App = () => {
             <Route exact path="/*" element={<ErrorPage />} />
           </Routes>
         </div>
+        <Promo />
         <Footer />
       </div>
     </HashRouter>

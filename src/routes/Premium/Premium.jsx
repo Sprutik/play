@@ -52,6 +52,13 @@ export const Premium = () => {
                 <td>50</td>
               </tr>
               <tr className="row-2">
+                <td>Кількість лотів на аукціоні</td>
+                <td>3</td>
+                <td>6</td>
+                <td>12</td>
+                <td>24</td>
+              </tr>
+              <tr className="row-1">
                 <td>
                   <span>Колір ніку </span>
                 </td>
@@ -68,7 +75,7 @@ export const Premium = () => {
                   <span className="getman">DARK PURPLE</span>
                 </td>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td>/hat</td>
                 <td>
                   <img className="acces-img" src={notOkImg} alt="ok" />
@@ -83,7 +90,7 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>/wbench</td>
                 <td>
                   {' '}
@@ -99,10 +106,9 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td>Плащ</td>
                 <td>
-                  {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>
@@ -115,7 +121,7 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>Ковадло</td>
                 <td>
                   {' '}
@@ -131,7 +137,7 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td>Картографічний стіл</td>
                 <td>
                   {' '}
@@ -147,7 +153,7 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>Каменеріз</td>
                 <td>
                   {' '}
@@ -163,7 +169,7 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td>Точило</td>
                 <td>
                   {' '}
@@ -179,7 +185,7 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>Ткацький верстат</td>
                 <td>
                   {' '}
@@ -195,7 +201,7 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td>Стіл коваля</td>
                 <td>
                   {' '}
@@ -211,10 +217,9 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>Смітник</td>
                 <td>
-                  {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>
@@ -227,7 +232,7 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td>Політ</td>
                 <td>
                   {' '}
@@ -244,14 +249,12 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>Скриня Енду</td>
                 <td>
-                  {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>
-                  {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>
@@ -261,7 +264,7 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td>Заряд полум'я</td>
                 <td>
                   {' '}
@@ -278,7 +281,7 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>Вхід поза без черги</td>
                 <td>
                   {' '}
@@ -295,10 +298,9 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td>Повернення на місце смерті</td>
                 <td>
-                  {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>
@@ -307,6 +309,21 @@ export const Premium = () => {
                 </td>
                 <td>
                   {' '}
+                  <img className="acces-img" src={notOkImg} alt="ok" />
+                </td>
+                <td>
+                  <img className="acces-img" src={okImg} alt="ok" />
+                </td>
+              </tr>
+              <tr className="row-1">
+                <td>Ремонт</td>
+                <td>
+                  <img className="acces-img" src={notOkImg} alt="ok" />
+                </td>
+                <td>
+                  <img className="acces-img" src={notOkImg} alt="ok" />
+                </td>
+                <td>
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>
@@ -314,24 +331,6 @@ export const Premium = () => {
                 </td>
               </tr>
               <tr className="row-2">
-                <td>Ремонт</td>
-                <td>
-                  {' '}
-                  <img className="acces-img" src={notOkImg} alt="ok" />
-                </td>
-                <td>
-                  {' '}
-                  <img className="acces-img" src={notOkImg} alt="ok" />
-                </td>
-                <td>
-                  {' '}
-                  <img className="acces-img" src={notOkImg} alt="ok" />
-                </td>
-                <td>
-                  <img className="acces-img" src={okImg} alt="ok" />
-                </td>
-              </tr>
-              <tr className="row-1">
                 <td>Зміна погоди</td>
                 <td>
                   {' '}
@@ -349,32 +348,12 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>Режим безсмертя</td>
                 <td>
-                  {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>
-                  {' '}
-                  <img className="acces-img" src={notOkImg} alt="ok" />
-                </td>
-                <td>
-                  {' '}
-                  <img className="acces-img" src={notOkImg} alt="ok" />
-                </td>
-                <td>
-                  <img className="acces-img" src={okImg} alt="ok" />
-                </td>
-              </tr>
-              <tr className="row-1">
-                <td>Телепортація по кординатам</td>
-                <td>
-                  {' '}
-                  <img className="acces-img" src={notOkImg} alt="ok" />
-                </td>
-                <td>
-                  {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>
@@ -386,13 +365,11 @@ export const Premium = () => {
                 </td>
               </tr>
               <tr className="row-2">
-                <td>Візуальні ефекти</td>
+                <td>Телепортація по кординатам</td>
                 <td>
-                  {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>
-                  {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>
@@ -404,6 +381,22 @@ export const Premium = () => {
                 </td>
               </tr>
               <tr className="row-1">
+                <td>Візуальні ефекти</td>
+                <td>
+                  <img className="acces-img" src={notOkImg} alt="ok" />
+                </td>
+                <td>
+                  <img className="acces-img" src={notOkImg} alt="ok" />
+                </td>
+                <td>
+                  {' '}
+                  <img className="acces-img" src={notOkImg} alt="ok" />
+                </td>
+                <td>
+                  <img className="acces-img" src={okImg} alt="ok" />
+                </td>
+              </tr>
+              <tr className="row-2">
                 <td>Елітра</td>
                 <td>
                   {' '}
@@ -421,14 +414,12 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>Броня</td>
                 <td>
-                  {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>
-                  {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>
@@ -439,7 +430,7 @@ export const Premium = () => {
                   <img className="acces-img" src={okImg} alt="ok" />
                 </td>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td>/kit banners</td>
                 <td>
                   {' '}
@@ -452,7 +443,7 @@ export const Premium = () => {
                 <td>1 раз</td>
                 <td>2 рази</td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>/kit blocks</td>
                 <td>
                   {' '}
@@ -462,17 +453,16 @@ export const Premium = () => {
                 <td>2 раз</td>
                 <td>6 раз</td>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td>/kit books</td>
                 <td>
-                  {' '}
                   <img className="acces-img" src={notOkImg} alt="ok" />
                 </td>
                 <td>1 раз</td>
                 <td>2 раз</td>
                 <td>6 раз</td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>Прапорці привату</td>
                 <td>
                   <img className="acces-img" src={notOkImg} alt="ok" />
@@ -481,14 +471,14 @@ export const Premium = () => {
                 <td>усі</td>
                 <td>усі</td>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
                 <td></td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>Ціни:</td>
                 <th>Селянин</th>
                 <th>
@@ -501,14 +491,14 @@ export const Premium = () => {
                   <span className="getman">Гетьман</span>
                 </th>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td>1 місяць</td>
                 <td>0</td>
                 <td>39</td>
                 <td>129</td>
                 <td>279</td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>
                   3 місяці <span className="sell"> -5%</span>
                 </td>
@@ -517,7 +507,7 @@ export const Premium = () => {
                 <td>359</td>
                 <td>759</td>
               </tr>
-              <tr className="row-1">
+              <tr className="row-2">
                 <td>
                   6 місяців <span className="sell"> -10%</span>
                 </td>
@@ -526,7 +516,7 @@ export const Premium = () => {
                 <td>689</td>
                 <td>1449</td>
               </tr>
-              <tr className="row-2">
+              <tr className="row-1">
                 <td>
                   12 місяців<span className="sell"> -15%</span>{' '}
                 </td>
@@ -538,15 +528,10 @@ export const Premium = () => {
             </tbody>
           </table>
 
-          <p className="premium-text-small">
-            ПРИДБАТИ ДАНІ ПАКЕТИ МОЖНА НА СЕРВЕРІ ЗА ДОПОМОГОЮ КОМАНДИ /DONATE
-          </p>
+          <p className="premium-text-small">ПРИДБАТИ ДАНІ ПАКЕТИ МОЖНА НА СЕРВЕРІ ЗА ДОПОМОГОЮ КОМАНДИ /DONATE</p>
           <p className="premium-text-small">УСІ СУМИ СУМИ ВКАЗАНІ У ГРИВНЯХ</p>
 
-          <Button
-            str="ПОПОВНИТИ РАХУНОК"
-            link="https://playcraft.com.ua/autodonate"
-          />
+          <Button str="ПОПОВНИТИ РАХУНОК" link="https://playcraft.com.ua/autodonate" />
         </div>
       </div>
     </section>
