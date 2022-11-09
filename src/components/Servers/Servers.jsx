@@ -5,7 +5,7 @@ import './Servers.scss'
 export const Servers = () => {
   const [serverInfo, setServerInfo] = useState({
     first: { current: 0, max: 100 },
-    second: { current: 20, max: 100 },
+    // second: { current: 20, max: 100 },
   })
 
   const getInfo = useEffect(() => {
@@ -26,11 +26,6 @@ export const Servers = () => {
   return (
     <div className="servers-container">
       <ServerInfo name="VANILA" info={serverInfo.first} color={'#f18b6d'} />
-      <ServerInfo
-        name="PLAYCRAFT II скоро..."
-        info={serverInfo.second}
-        color={'#f1d204'}
-      />
     </div>
   )
 }

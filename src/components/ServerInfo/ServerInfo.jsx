@@ -9,7 +9,7 @@ export const ServerInfo = ({ name, info, color }) => {
     <div className="server-info-container">
       <div
         className="online-bar-container"
-        style={{ marginLeft: percentage - 13 + '%' }}
+        style={{ marginLeft: percentage - 9 + '%' }}
       >
         <div className="online-bar-rect" style={{ backgroundColor: color }}>
           {`${current}/${max}`}
@@ -24,9 +24,8 @@ export const ServerInfo = ({ name, info, color }) => {
         <div
           className="online-current"
           style={{ backgroundColor: color, width: percentage + '%' }}
-        >
-          <div className="online-dot" style={{ backgroundColor: color }}></div>
-        </div>
+        ></div>
+        {/* <div className="online-dot" style={{ backgroundColor: color }}></div> */}
       </div>
 
       <div className="server-name" style={{ color: color }}>

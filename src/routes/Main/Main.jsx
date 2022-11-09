@@ -3,7 +3,7 @@ import { StartBtn } from '../../components/StartBtn/StartBtn'
 import { Servers } from '../../components/Servers/Servers'
 import { Counters } from '../../components/Counters/Counters'
 
-import projectImg1 from '../../assets/img/front-1.png'
+import playUA from '../../assets/img/partners/playua.png'
 
 import './Main.scss'
 import { ReviewSlider } from '../../components/ReviewSlider/ReviewSlider'
@@ -33,7 +33,7 @@ export const Main = () => {
       <section>
         <div className="section-outer section-about">
           <div className="section-inner">
-            <h2 className="about-label">СЕРВЕРИ:</h2>
+            <h2 className="about-label">СЕРВЕР:</h2>
             <p className="about-text">
               PlayCraft - перший український та Україномовний майнкрафт сервер.
               Сервер з теплою атмосферою, історія якого починається в далекому
@@ -118,7 +118,7 @@ export const Main = () => {
         <div className="section-outer section-projects">
           <div className="projects-container">
             <div className="section-inner">
-              <h2 className="projects-label">ПАРТНЕРИ:</h2>
+              <h2 className="projects-label">НАШІ ДРУЗІ:</h2>
             </div>
             <div className="projects-images">
               <a
@@ -127,51 +127,12 @@ export const Main = () => {
                 target="_blank"
                 className="project-img-container"
               >
-                {' '}
-                <img
-                  className="project-img"
-                  alt="project-img3"
-                  src={projectImg1}
-                />
+                <img className="project-img" alt="project-img3" src={playUA} />
               </a>
-              <a
-                href="https://t.me/playcraftsupport"
-                rel="noreferrer"
-                target="_blank"
-                className="project-img-container"
-              >
-                {' '}
-                <img
-                  className="project-img"
-                  alt="project-img3"
-                  src={projectImg1}
-                />
-              </a>
-              <a
-                href="https://t.me/playcraftsupport"
-                rel="noreferrer"
-                target="_blank"
-                className="project-img-container"
-              >
-                {' '}
-                <img
-                  className="project-img"
-                  alt="project-img3"
-                  src={projectImg1}
-                />
-              </a>
-              <a
-                href="https://t.me/playcraftsupport"
-                rel="noreferrer"
-                target="_blank"
-                className="project-img-container"
-              >
-                <img
-                  className="project-img"
-                  alt="project-img4"
-                  src={projectImg1}
-                />
-              </a>
+              <div className="playua-desc">
+                PlayUA — українське інтернет-видання, засноване 2009 року,
+                основною тематикою якого є індустрія відеоігор.
+              </div>
             </div>
           </div>
         </div>
