@@ -122,17 +122,22 @@ export const Main = () => {
             </div>
             <div className="projects-images">
               <a
-                href="https://t.me/playcraftsupport"
+                href="https://playua.net/"
                 rel="noreferrer"
                 target="_blank"
                 className="project-img-container"
               >
                 <img className="project-img" alt="project-img3" src={playUA} />
               </a>
-              <div className="playua-desc">
+              <a
+                className="playua-desc"
+                href="https://playua.net/"
+                rel="noreferrer"
+                target="_blank"
+              >
                 PlayUA — українське інтернет-видання, засноване 2009 року,
                 основною тематикою якого є індустрія відеоігор.
-              </div>
+              </a>
             </div>
           </div>
         </div>

@@ -25,7 +25,7 @@ export const Servers = () => {
 
   return (
     <div className="servers-container">
-      <ServerInfo name="VANILA" info={serverInfo.first} color={'#f18b6d'} />
+      <ServerInfo name="VANILLA" info={serverInfo.first} color={'#f18b6d'} />
     </div>
   )
 }
